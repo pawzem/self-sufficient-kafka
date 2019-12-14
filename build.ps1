@@ -1,0 +1,1 @@
+docker build -t pawzem1994/self-sufficient-kafka .
