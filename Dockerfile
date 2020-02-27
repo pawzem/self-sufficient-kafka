@@ -21,9 +21,6 @@ ADD $SERVER_PROPERTIES /opt/configs/
 ADD supervisor/zookeeper.conf /etc/supervisor/conf.d/
 ADD supervisor/kafka.conf /etc/supervisor/conf.d/
 
-#RUN /usr/share/zookeeper/bin/zkServer.sh start-foreground
-#RUN /opt/kafka/bin/kafka-server-start.sh /opt/configs/server.properties
-
 # 2181 is zookeeper, 9092 is kafka
 EXPOSE 2181 9092
 
